@@ -1,0 +1,54 @@
+{
+    "name": "RaceGameInput",
+    "maps": [
+        {
+            "name": "GameInput",
+            "id": "4164e42b-da1d-4e4b-b8c3-67c867a13b6c",
+            "actions": [
+                {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "ecf0d57e-681e-4905-ad17-41cf60fd49a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skip",
+                    "type": "Button",
+                    "id": "314a510c-f1e2-47b1-87b2-10a8bfbefc7d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bd48f462-11e3-4c23-a76f-dea3dedde6f0",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "142130bc-2e95-46f9-8fea-f4b35ef13456",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
